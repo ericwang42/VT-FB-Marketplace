@@ -1,0 +1,38 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 12px;
+    padding: 20px;
+    width: 230px;
+    height: auto;
+    max-height: 420px;
+    min-width: 100px;
+    background-color: white;
+    z-index: 1;
+}
+
+.product>img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product>button {
+    background: #800000;
+    border: 1px solid #800020;
+    margin-top: 12px;
+    color: white;
+}
+
+.product_price {
+    margin-top: 8px;
+}
+
+.product_info {
+    height: 40px;
+    margin-bottom: 15px;
+    color: black;
+}

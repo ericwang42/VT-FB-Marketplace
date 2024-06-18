@@ -1,0 +1,69 @@
+.library {
+    margin-top: 7%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    background-image: url('https://www.alumni.vt.edu/content/dam/give_vt_edu/images/wallpaper/wpp-hokiestone-desktop-16x9-2133x1200.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+    .library {
+        margin-top: 90%;
+    }
+}
+
+.library_row {
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.library_row:hover {
+    transform: scale(1.1);
+}
+
+.add_listing {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.add_listing button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add_listing button:hover {
+    background-color: #45a049;
+}
+
+.library_image {
+    z-index: -1;
+    margin-bottom: -160px;
+}
+
+.library_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    width: fit-content;
+    min-height: 100vh;
+}
